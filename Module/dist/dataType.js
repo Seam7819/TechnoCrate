@@ -13,3 +13,14 @@ friends[3] = 'ratan';
 const rollNumber = [12, 34, 56, 35, 7, 5];
 rollNumber[3] = 43;
 console.log(rollNumber);
+// topple type data 
+const nameRoll = ['nurul', 25, true];
+// Object , Optional and Literal Types 
+const user = {
+    firstName: 'sultan',
+    middleName: ' Nasir',
+    lastName: 'seam',
+    religion: "Islam",
+    address: 3456,
+};
+// user.address = 345 Cannot assign to 'address' because it is a read-only property
