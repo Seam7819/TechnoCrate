@@ -22,3 +22,23 @@ console.log(rollNumber);
 // topple type data 
 
 const nameRoll : [string, number,boolean] = ['nurul', 25, true];
+
+// Object , Optional and Literal Types 
+
+const user : {
+    firstName  : string;
+    middleName : string;
+    lastName : string;
+    contactNum? : number; //optional types
+    religion : "Islam" //Literal type
+    readonly address : number
+
+}= {
+    firstName : 'sultan',
+    middleName : ' Nasir',
+    lastName : 'seam',
+    religion : "Islam",
+    address : 3456,
+}
+
+// user.address = 345 Cannot assign to 'address' because it is a read-only property
