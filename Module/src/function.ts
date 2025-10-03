@@ -22,3 +22,7 @@ const user2 = {
 // You’ve defined an object literal with a method inside it. 
 // To call the function addBalance, you should call it through the object (user2).
 user2.addBalance(500);
+
+const array : number[] = [1,2,3,4,5]
+
+const newArray : number[] = array.map((elem : number) : number => elem*elem)
