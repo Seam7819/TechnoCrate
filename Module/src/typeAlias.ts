@@ -38,4 +38,6 @@ const add = (num1 : number, num2: number):number => num1+ num2;
 type Add = (num1: number, num2: number)=> number
 const add2:Add = (num1 , num2) => num1+ num2;
 
+
+
 }
