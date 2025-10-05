@@ -16,3 +16,7 @@ const isAuthenticated = null;
 const result1 = isAuthenticated ?? 'Guest'; //here we will get guest when variable is null or undefined 
 // others time we will get empty string
 const result2 = isAuthenticated ? isAuthenticated : 'Guest'; //here we will get guest is there null 
+
+
+
+
