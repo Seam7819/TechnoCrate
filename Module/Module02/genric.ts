@@ -28,5 +28,11 @@
         }
     ]
 
+    //  Generic Tuple
+
+    type GenericTuple<X,Y,Z> = [X,Y,Z]
+
+    const person : GenericTuple<string,number,boolean> = ['mrx',25, true]
+
 
 }
