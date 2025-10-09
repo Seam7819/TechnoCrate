@@ -9,6 +9,7 @@
             this.name = name;
             this.age = number;
             this.address = address;
+            
         }
         getSleepOfHours(numOfHours:number){
             console.log(`This person Sleep for ${numOfHours} hours`);
